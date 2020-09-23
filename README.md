@@ -90,6 +90,8 @@ Time by time more informations in the [wiki](https://github.com/Maschine2501/NR1
 
 ## To-Do: 
 
+* discontinued
+
 ## Allready Done:
 ---
 - [x] Standby-Screen (when Playback is stoped, Time, Date and IP is Displayed)
@@ -120,17 +122,13 @@ Time by time more informations in the [wiki](https://github.com/Maschine2501/NR1
 - [x] Scrolling-Text is back!
 - [x] Tidal Playback is functional now
 - [x] Simplyfied installation routine by using a bassh-script
-- [x] Upgrade to latest Python (3.8.5) -> Alternative installation!
-- [x] added a configuration script to [installer](https://github.com/Maschine2501/NR1-UI/wiki/Installation-Steps-(for-Python3.8.5-Version---Autoconfig-Bash-Script))
-- [x] Python 3.5 (Support ends 13. september 2020) -> Upgrade to latest posssible version 
-- [x] PIP 21.0 (Support ends January 2021) -> Upgrade to latest posssible version
 
 ## [Project on Volumio-Forum](https://community.volumio.org/t/oled-user-inteface-for-volumio-with-rotary-and-4-buttons-modular-highly-configurable-supports-ssd1306-and-ssd1322/40378?u=maschine2501)
 
 ---
 
 
-## [Main-Installation steps (Python 3.5.2) (Bash-Script)](https://github.com/Maschine2501/NR1-UI/wiki/Installation-Steps-(Bash-Script))
+## [Main-Installation steps (Python 3.5.2) (Bash-Script)](https://github.com/Maschine2501/NR1-UI-352/wiki/Installation-Steps-(Bash-Script))
 
 ---
 
