@@ -1,8 +1,8 @@
 Inspired by: [diehardsk/Volumio-OledUI](https://github.com/diehardsk/Volumio-OledUI)
 
-## 13.09.2020 Upgrade to Python3.8.5
+## 23.09.2020 Splitted the Project
 
-### This is the Python3 version of [Maschine2501/Volumio-OledUI](https://github.com/Maschine2501/Volumio-OledUI/)
+### This is the Python3.5.2 version of [Maschine2501/Volumio-OledUI](https://github.com/Maschine2501/Volumio-OledUI/)
 ---
 
 # NR1-UI
@@ -89,12 +89,6 @@ Time by time more informations in the [wiki](https://github.com/Maschine2501/NR1
 * Some bugs will (not often) happen. Will debug it soon.
 
 ## To-Do: 
----
-- [ ] Tune the whole UI (fonts, positions... etc.)
-- [ ] Add RS232 -> Braun Master Control communication
-- [ ] Make versions for other displays? like ssd1351, ssd1309? Maybe...
-- [ ] More Layouts and redesigning the existing ones
-
 
 ## Allready Done:
 ---
@@ -135,12 +129,9 @@ Time by time more informations in the [wiki](https://github.com/Maschine2501/NR1
 
 ---
 
-## [Basic Installation Steps <-> First Installation](https://github.com/Maschine2501/NR1-UI/wiki/Basic-Installation-Steps-----First-Installation)
 
----
 ## [Main-Installation steps (Python 3.5.2) (Bash-Script)](https://github.com/Maschine2501/NR1-UI/wiki/Installation-Steps-(Bash-Script))
 
-# [Main-Installation steps (Python 3.8.5) (Bash-Script)](https://github.com/Maschine2501/NR1-UI/wiki/Installation-Steps-(for-Python3.8.5-Version---Bash-Script))
 ---
 
 ## Configuration Manual (will follow soon!)
