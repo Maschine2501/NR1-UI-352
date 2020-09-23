@@ -3,7 +3,7 @@ set +e #
 sudo dpkg-reconfigure tzdata #                                                                               
 cd #
 echo "configuring Config.txt"
-sudo cp /home/volumio/NR1-UI/config/config.txt /boot/ #
+sudo cp /home/volumio/NR1-UI-352/config/config.txt /boot/ #
 echo "Installing Python 3.5.2 and dependencies"
 sudo apt-get update #
 sudo apt-get install -y build-essential libc6-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev #
@@ -28,7 +28,7 @@ sudo bash autogen.sh #
 ./configure && make -j4 && sudo make install #
 cd #
 echo "Copying mpd.conf"
-sudo cp /home/volumio/NR1-UI/config/mpd.conf /etc/ #
+sudo cp /home/volumio/NR1-UI-352/config/mpd.conf /etc/ #
 sudo chmod 777 /etc/mpd.conf #
 cd #
 echo "Installing Cava 2 (used for loudness-graph)"
@@ -38,10 +38,10 @@ sudo bash ./autogen.sh #
 ./configure --prefix=/home/volumio/CAVA2 && make -j4 && sudo make install #
 cd #
 echo "installing NR1-UI..."
-chmod +x /home/volumio/NR1-UI/nr1ui.py #
-sudo cp /home/volumio/NR1-UI/service-files/nr1ui.service /lib/systemd/system/ #
-sudo cp /home/volumio/NR1-UI/service-files/cava1.service /lib/systemd/system/ #
-sudo cp /home/volumio/NR1-UI/service-files/cava2.service /lib/systemd/system/ #
+chmod +x /home/volumio/NR1-UI-352/nr1ui.py #
+sudo cp /home/volumio/NR1-UI-352/service-files/nr1ui.service /lib/systemd/system/ #
+sudo cp /home/volumio/NR1-UI-352/service-files/cava1.service /lib/systemd/system/ #
+sudo cp /home/volumio/NR1-UI-352/service-files/cava2.service /lib/systemd/system/ #
 sudo systemctl daemon-reload #
 sudo systemctl enable nr1ui.service #
 sudo systemctl enable cava1.service #
